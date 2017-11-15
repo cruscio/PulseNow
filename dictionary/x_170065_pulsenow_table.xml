@@ -3,18 +3,33 @@
     <element label="Event" max_length="40" name="x_170065_pulsenow_table" type="collection">
         <element label="Class" max_length="255" name="class" type="string_full_utf8"/>
         <element label="Component" max_length="255" name="component" type="string_full_utf8"/>
-        <element display="true" label="Custom Details" max_length="255" name="custom_details" type="string_full_utf8"/>
+        <element display="true" label="Custom details" max_length="4000" name="custom_details" type="string_full_utf8"/>
         <element label="Event Key" max_length="40" name="event_key" type="string"/>
         <element label="Group" max_length="255" name="group" type="string_full_utf8"/>
+        <element label="Incident" max_length="32" name="incident" reference="incident" type="reference"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
-        <element choice="1" label="Severity" max_length="4000" name="severity" reference="x_170065_pulsenow_severity" type="choice">
-            <choice/>
+        <element choice="3" default="Info" label="Severity" max_length="4000" name="severity" type="choice">
+            <choice>
+                <element label="Info" sequence="1" value="Info"/>
+                <element label="Warning" sequence="2" value="Warning"/>
+                <element label="Error" sequence="3" value="Error"/>
+                <element label="Critical" sequence="4" value="Critical"/>
+            </choice>
         </element>
         <element label="Source" max_length="255" name="source" type="string_full_utf8"/>
-        <element choice="1" label="State" max_length="4000" name="state" reference="x_170065_pulsenow_state" type="choice">
-            <choice/>
+        <element choice="1" default="Received" label="State" max_length="4000" name="state" read_only="true" type="choice">
+            <choice>
+                <element label="Received" sequence="1" value="Received"/>
+                <element label="Acknowledged" sequence="2" value="Acknowledged"/>
+                <element label="Resolved" sequence="3" value="Resolved"/>
+                <element label="Ignored" sequence="4" value="Ignored"/>
+                <element label="Supressed" sequence="5" value="Supressed"/>
+            </choice>
         </element>
         <element label="Summary" max_length="255" name="summary" type="string_full_utf8"/>
-        <element label="Upstream Timestamp" max_length="40" name="upstream_timestamp" type="glide_date_time"/>
+        <element label="Upstream" max_length="40" name="upstream_timestamp" type="glide_date_time"/>
+        <index name="index">
+            <element name="incident"/>
+        </index>
     </element>
 </database>

@@ -14,7 +14,7 @@
         <label>Event</label>
         <live_feed_enabled>false</live_feed_enabled>
         <name>x_170065_pulsenow_table</name>
-        <number_ref display_value="PUL">7f000ec00f220300b6618ecce1050e88</number_ref>
+        <number_ref display_value="PLS">7f000ec00f220300b6618ecce1050e88</number_ref>
         <provider_class/>
         <read_access>true</read_access>
         <super_class/>

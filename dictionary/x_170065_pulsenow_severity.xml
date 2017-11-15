@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<database>
-    <element label="Severity" max_length="40" name="x_170065_pulsenow_severity" type="collection">
-        <element label="Severity" max_length="40" name="severity" type="string"/>
-    </element>
-</database>

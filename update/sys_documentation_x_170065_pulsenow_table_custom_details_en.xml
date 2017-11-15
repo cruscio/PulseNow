@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update>
-    <sys_documentation element="custom_details" label="Custom Details" language="en" table="x_170065_pulsenow_table">
+    <sys_documentation element="custom_details" label="Custom details" language="en" table="x_170065_pulsenow_table">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>custom_details</element>
             <help/>
             <hint/>
-            <label>Custom Details</label>
+            <label>Custom details</label>
             <language>en</language>
             <name>x_170065_pulsenow_table</name>
-            <plural>Custom Details</plural>
+            <plural>Custom details</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2017-11-15 18:18:57</sys_created_on>
             <sys_id>56028e040f220300b6618ecce1050ed4</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_name>Custom Details</sys_name>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>Custom details</sys_name>
             <sys_package display_value="PulseNow" source="x_170065_pulsenow">8b008a800f220300b6618ecce1050efb</sys_package>
             <sys_policy/>
             <sys_scope display_value="PulseNow">8b008a800f220300b6618ecce1050efb</sys_scope>
             <sys_update_name>sys_documentation_x_170065_pulsenow_table_custom_details_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-11-15 18:18:57</sys_updated_on>
+            <sys_updated_on>2017-11-15 19:42:45</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>
