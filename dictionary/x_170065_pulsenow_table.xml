@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Event" max_length="40" name="x_170065_pulsenow_table" type="collection">
+        <element label="Class" max_length="255" name="class" type="string_full_utf8"/>
+        <element label="Component" max_length="255" name="component" type="string_full_utf8"/>
+        <element display="true" label="Custom Details" max_length="255" name="custom_details" type="string_full_utf8"/>
+        <element label="Event Key" max_length="40" name="event_key" type="string"/>
+        <element label="Group" max_length="255" name="group" type="string_full_utf8"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element choice="1" label="Severity" max_length="4000" name="severity" reference="x_170065_pulsenow_severity" type="choice">
+            <choice/>
+        </element>
+        <element label="Source" max_length="255" name="source" type="string_full_utf8"/>
+        <element choice="1" label="State" max_length="4000" name="state" reference="x_170065_pulsenow_state" type="choice">
+            <choice/>
+        </element>
+        <element label="Summary" max_length="255" name="summary" type="string_full_utf8"/>
+        <element label="Upstream Timestamp" max_length="40" name="upstream_timestamp" type="glide_date_time"/>
+    </element>
+</database>
