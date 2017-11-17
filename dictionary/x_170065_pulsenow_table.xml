@@ -19,6 +19,7 @@
         <element label="Source" max_length="255" name="source" type="string_full_utf8"/>
         <element choice="1" default="Received" label="State" max_length="4000" name="state" read_only="true" type="choice">
             <choice>
+                <element label="Promoted" value="Promoted"/>
                 <element label="Received" sequence="1" value="Received"/>
                 <element label="Acknowledged" sequence="2" value="Acknowledged"/>
                 <element label="Resolved" sequence="3" value="Resolved"/>
