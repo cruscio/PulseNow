@@ -21,9 +21,16 @@
         <list_save_with_form_button>false</list_save_with_form_button>
         <list_style/>
         <name>Promote to New Incident</name>
-        <onclick/>
+        <onclick>showMyForm()</onclick>
         <order>100</order>
-        <script/>
+        <script><![CDATA[function showMyForm(){  
+  var tableName = 'incident';
+  var dialog = new GlideDialogForm('Promote Event(s) to Incident', tableName);
+  dialog.setSysID(-1); // -1 to create new record  
+  //dialog.addParm('sysparm_view', 'add_inventory'); //Use the Add Inventory view of the form  
+  dialog.addParm('sysparm_form_only', 'true'); //Remove related lists  
+  dialog.render(); //Open the dialog 
+}]]></script>
         <show_insert>true</show_insert>
         <show_multiple_update>false</show_multiple_update>
         <show_query>false</show_query>
@@ -34,7 +41,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>ee34f8a80f2e0300b6618ecce1050ee9</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>Promote to New Incident</sys_name>
         <sys_overrides/>
         <sys_package display_value="PulseNow" source="x_170065_pulsenow">8b008a800f220300b6618ecce1050efb</sys_package>
@@ -42,7 +49,7 @@
         <sys_scope display_value="PulseNow">8b008a800f220300b6618ecce1050efb</sys_scope>
         <sys_update_name>sys_ui_action_ee34f8a80f2e0300b6618ecce1050ee9</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-11-17 21:33:55</sys_updated_on>
+        <sys_updated_on>2017-11-17 22:04:28</sys_updated_on>
         <table>x_170065_pulsenow_table</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>true</ui16_compatible>
