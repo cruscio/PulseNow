@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="severity" table="x_170065_pulsenow_event" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>severity</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Info</label>
+            <language>en</language>
+            <name>x_170065_pulsenow_event</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-11-22 16:50:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e0d0b91e0fa60300b6618ecce1050eef</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-11-22 16:50:47</sys_updated_on>
+            <value>info</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>severity</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Warning</label>
+            <language>en</language>
+            <name>x_170065_pulsenow_event</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-11-22 16:50:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0ec07d1e0fa60300b6618ecce1050ec1</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-11-22 16:50:50</sys_updated_on>
+            <value>warning</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>severity</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Minor</label>
+            <language>en</language>
+            <name>x_170065_pulsenow_event</name>
+            <sequence>3</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-11-22 16:49:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>aab0f5920fe60300b6618ecce1050e18</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-11-22 16:50:53</sys_updated_on>
+            <value>minor</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>severity</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Major</label>
+            <language>en</language>
+            <name>x_170065_pulsenow_event</name>
+            <sequence>4</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-11-22 16:49:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d990395a0fa60300b6618ecce1050e2d</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-11-22 16:50:56</sys_updated_on>
+            <value>major</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>severity</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Critical</label>
+            <language>en</language>
+            <name>x_170065_pulsenow_event</name>
+            <sequence>5</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-11-22 16:49:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2f70b51e0fa60300b6618ecce1050ef5</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-11-22 16:50:58</sys_updated_on>
+            <value>critical</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>severity</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Clear</label>
+            <language>en</language>
+            <name>x_170065_pulsenow_event</name>
+            <sequence>6</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-11-22 16:50:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4bd0f9920fe60300b6618ecce1050e36</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-11-22 16:50:43</sys_updated_on>
+            <value>clear</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>severity</element>
+            <name>x_170065_pulsenow_event</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-11-22 16:49:01</sys_created_on>
+            <sys_id>11907dda0fa60300b6618ecce1050e5c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>severity</sys_name>
+            <sys_package display_value="PulseNow" source="x_170065_pulsenow">8b008a800f220300b6618ecce1050efb</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="PulseNow">8b008a800f220300b6618ecce1050efb</sys_scope>
+            <sys_update_name>sys_choice_x_170065_pulsenow_event_severity</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-11-22 16:49:01</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

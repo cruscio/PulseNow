@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_form_sections form_id="0aab19d60fa60300b6618ecce1050e62" sys_domain="global" table="x_170065_pulsenow_event" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-11-22 15:17:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4eab19d60fa60300b6618ecce1050e64</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_170065_pulsenow_event" name="x_170065_pulsenow_event" sys_domain="global" view="Default view">0aab19d60fa60300b6618ecce1050e62</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_170065_pulsenow_event" sys_domain="global" view="Default view">939a51960fa60300b6618ecce1050e17</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-11-22 15:17:36</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-11-22 15:17:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4aab19d60fa60300b6618ecce1050e65</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_170065_pulsenow_event" name="x_170065_pulsenow_event" sys_domain="global" view="Default view">0aab19d60fa60300b6618ecce1050e62</sys_ui_form>
+            <sys_ui_section caption="Details" display_value="Details" name="x_170065_pulsenow_event" sys_domain="global" view="Default view">06ab19d60fa60300b6618ecce1050e61</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-11-22 15:17:36</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-11-22 15:17:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>82ab19d60fa60300b6618ecce1050e69</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_170065_pulsenow_event" name="x_170065_pulsenow_event" sys_domain="global" view="Default view">0aab19d60fa60300b6618ecce1050e62</sys_ui_form>
+            <sys_ui_section caption="History" display_value="History" name="x_170065_pulsenow_event" sys_domain="global" view="Default view">caab19d60fa60300b6618ecce1050e61</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-11-22 15:17:36</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-11-22 15:46:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1552a51e0fa60300b6618ecce1050e07</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_170065_pulsenow_event" name="x_170065_pulsenow_event" sys_domain="global" view="Default view">0aab19d60fa60300b6618ecce1050e62</sys_ui_form>
+            <sys_ui_section caption="Add Info" display_value="Add Info" name="x_170065_pulsenow_event" sys_domain="global" view="Default view">d152a51e0fa60300b6618ecce1050e04</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-11-22 15:46:46</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_170065_pulsenow_event</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-11-22 15:17:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0aab19d60fa60300b6618ecce1050e62</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_170065_pulsenow_event</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="PulseNow" source="x_170065_pulsenow">8b008a800f220300b6618ecce1050efb</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="PulseNow">8b008a800f220300b6618ecce1050efb</sys_scope>
+            <sys_update_name>sys_ui_form_sections_0aab19d60fa60300b6618ecce1050e62</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-11-22 15:17:36</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

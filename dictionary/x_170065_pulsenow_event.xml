@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element audit="true" label="Event2" max_length="40" name="x_170065_pulsenow_event" type="collection">
+        <element label="Additional Info" max_length="4000" name="additionalinfo" type="string"/>
+        <element label="Additional Info2" max_length="102400" name="additionalinfo2" type="wiki_text"/>
+        <element label="Description" max_length="4000" name="description" type="string"/>
+        <element label="Resource" mandatory="true" max_length="1024" name="eventclass" type="string"/>
+        <element label="Incident" max_length="32" name="incident" reference="incident" type="reference"/>
+        <element label="Message Key" max_length="100" name="messagekey" type="string"/>
+        <element label="Node" max_length="100" name="node" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Resource" max_length="100" name="resource" type="string"/>
+        <element choice="3" default="minor" label="Severity" mandatory="true" max_length="40" name="severity" type="choice">
+            <choice>
+                <element label="Info" sequence="1" value="info"/>
+                <element label="Warning" sequence="2" value="warning"/>
+                <element label="Minor" sequence="3" value="minor"/>
+                <element label="Major" sequence="4" value="major"/>
+                <element label="Critical" sequence="5" value="critical"/>
+                <element label="Clear" sequence="6" value="clear"/>
+            </choice>
+        </element>
+        <element label="Source" max_length="100" name="source" type="string"/>
+        <element label="Source Instance" max_length="512" name="sourceinstance" type="string"/>
+        <element choice="3" default="ready" label="State" max_length="40" name="state" type="choice">
+            <choice>
+                <element label="Ready" sequence="1" value="received"/>
+                <element label="Review in Progress" sequence="2" value="reviewinprogress"/>
+                <element label="Ignored" sequence="3" value="ignored"/>
+                <element label="Supressed" sequence="4" value="supressed"/>
+                <element label="Cleared" sequence="5" value="cleared"/>
+                <element label="Incident" sequence="6" value="incident"/>
+            </choice>
+        </element>
+        <element label="Time of Event (UTC)" max_length="40" name="timeofevent" type="glide_date_time"/>
+        <element label="Type" max_length="100" name="type" type="string"/>
+        <index name="index">
+            <element name="number"/>
+        </index>
+        <index name="index2">
+            <element name="incident"/>
+        </index>
+    </element>
+</database>
